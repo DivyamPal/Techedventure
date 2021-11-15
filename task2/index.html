@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Techadventure</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h1>Note: temprarture rising is not working.</h1>
+        <div class="container">
+            
+            <div class="thermometer">
+                <div class="tbox">
+                    <div class="celcius">C</div>
+                    <br>
+                    <div class="circle"></div>
+                    <div class="therm">
+                    <div class="numbering">
+                        <div class="thermometer__label">10-
+                      
+                        </div>
+                        <br>
+                        <div class="thermometer__label">20-
+                      
+                    </div>
+                    
+                    <br>
+                    <div class="thermometer__label">30-
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">40-
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">50-
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">60-
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">70-
+                      
+                    </div>
+                    <br>
+                    <div class="thermometer__label">80-
+                        
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">90-</div>
+                    <br>
+                    <div class="thermometer__label">100-
+                        
+                        
+                    </div>
+                    <br>
+                    <div class="thermometer__label">120-
+                        
+                        
+                    </div>
+                </div>
+                    <div class="bar">
+                        <div class="barfill"></div>
+                    </div>
+                    
+                </div>
+                <!-- <input type="number" class="tempinput"> -->
+            </div>
+            </div>
+            <input type="number" class="tempinput">
+            <div class="stopwatch">
+                <p><span id="second">00</span>:<span id="tens">00</span></p>
+                <button id="btn-start" class="button" onclick="c(this.getAttribute('class'));"><span>OK</span></button>
+                <button id="btn-stop" class="button"><span>Stop</span></button>
+                <button id="btn-reset" class="button"><span>Reset</span></button>
+                <!-- <button class="bb" onclick="c(this.getAttribute('class'));"></button> -->
+            </div>
+        </div>
+        <script src="script.js" ></script>
+    </body>
+</html>
